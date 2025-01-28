@@ -7,7 +7,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
+                    <a href="../Vendeur/G_achats.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
                         Vente de tickets
                     </a>
                 </li>
