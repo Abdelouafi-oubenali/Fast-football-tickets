@@ -2,7 +2,7 @@
             <div class="text-white text-xl font-bold mb-8">⚽ Gestion des Tickets</div>
             <ul class="space-y-2">
                 <li>
-                    <a href="#" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
+                    <a href="../admin/admin.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
                         Tableau de bord
                     </a>
                 </li>
@@ -12,18 +12,23 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./G_match.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
+                    <a href="../admin/G_match.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
                     Gestion des matchs
                     </a>
                 </li>
                 <li>
-                    <a href="./G_equipes.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
+                    <a href="../admin/G_equipes.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
                     Gestion des équipes 
                     </a>
                 </li>
                 <li>
-                    <a href="./G_stades.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
+                    <a href="../admin/G_stades.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
                     Gestion des stades
+                    </a>
+                </li>
+                <li>
+                    <a href="../admin/G_tecketes.php" class="text-gray-300 hover:text-white block py-2 px-4 rounded hover:bg-green-700">
+                    Gestion des tickets
                     </a>
                 </li>
                 <li>
