@@ -118,14 +118,6 @@
 
 
 
-
-
-
-
-
-
-
-
                 let selectedTribune = '';
                 let selectedMatch = '';
                 let selectedCategory = '';
