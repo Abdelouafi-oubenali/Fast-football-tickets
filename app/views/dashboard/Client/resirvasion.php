@@ -152,57 +152,9 @@
         </div>
     </main>
 
-    <script>
-        // Variables pour stocker les sélections
-        let selectedTribune = '';
-        let selectedMatch = '';
-        let selectedCategory = '';
-        let selectedQuantity = 1;
+    <script src="../../../../public/assets/js/scrept.js">
 
-        // Prix par catégorie
-        const prices = {
-            'vip': 150,
-            'category1': 80,
-            'category2': 50,
-            'category3': 30
-        };
 
-        // Fonction de sélection de tribune
-        function selectTribune(tribune) {
-            selectedTribune = tribune;
-            document.getElementById('selectedTribune').textContent = 
-                `Tribune ${tribune.charAt(0).toUpperCase() + tribune.slice(1)}`;
-            updateTotal();
-        }
-
-        // Écouteurs d'événements pour les sélecteurs
-        document.getElementById('matchSelect').addEventListener('change', function(e) {
-            selectedMatch = e.target.options[e.target.selectedIndex].text;
-            document.getElementById('selectedMatch').textContent = selectedMatch;
-            updateTotal();
-        });
-
-        document.getElementById('categorySelect').addEventListener('change', function(e) {
-            selectedCategory = e.target.options[e.target.selectedIndex].text;
-            document.getElementById('selectedCategory').textContent = selectedCategory;
-            updateTotal();
-        });
-
-        document.getElementById('quantitySelect').addEventListener('change', function(e) {
-            selectedQuantity = parseInt(e.target.value);
-            document.getElementById('selectedQuantity').textContent = `${selectedQuantity} billet(s)`;
-            updateTotal();
-        });
-
-        // Mise à jour du total
-        function updateTotal() {
-            let total = 0;
-            if (selectedCategory) {
-                const category = document.getElementById('categorySelect').value;
-                total = prices[category] * selectedQuantity;
-            }
-            document.getElementById('totalPrice').textContent = `${total} €`;
-        }
     </script>
 </body>
 </html>

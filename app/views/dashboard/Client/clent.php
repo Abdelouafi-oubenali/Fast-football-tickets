@@ -121,9 +121,9 @@
                             </div>
                         </div>
                     </div>
-                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg transition duration-150">
+                    <a href="./resirvasion.php" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg transition duration-150">
                         Réserver maintenant
-                    </button>
+                    </a>
                 </div>
             </div>
 

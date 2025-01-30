@@ -50,7 +50,7 @@
                 <div class="bg-white rounded-lg shadow p-6">
                     <div class="text-gray-500 text-sm">Taux de remplissage</div>
                     <div class="text-2xl font-bold mt-2" id="occupancyRate">0%</div>
-                    <div class="text-blue-500 text-sm mt-2">Objectif: 90%</div>
+                    <div class="text-blue-500 text-sm mt-2">Objectif: 0%</div>
                 </div>
             </div>
 
@@ -65,7 +65,7 @@
                     <div class="space-y-4" id="recentSales"></div>
                 </div>
             </div>
-
+            
             <!-- Tableau des catégories de prix -->
             <div class="bg-white rounded-lg shadow p-6">
                 <h2 class="text-lg font-semibold mb-4">Catégories de prix</h2>
