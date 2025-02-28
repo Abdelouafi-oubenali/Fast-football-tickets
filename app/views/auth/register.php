@@ -12,7 +12,6 @@
             <h1 class="text-2xl font-bold text-gray-800">FootTickets</h1>
             <p class="text-gray-600">Créez votre compte</p>
         </div>
-
         <form class="space-y-4">
             <div class="grid grid-cols-2 gap-4">
                 <div>
